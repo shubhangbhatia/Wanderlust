@@ -1,8 +1,8 @@
 const Listing = require("./modules/listing.js");
 const Review = require("./modules/review.js"); // adjust the path as needed
 
-const { listingSchema, reviewSchema} = require('../Wanderlust/schema.js');
-const ExpressError = require('../Wanderlust/utils/ExpressError.js');
+const { listingSchema, reviewSchema} = require('./schema.js');
+const ExpressError = require('./utils/ExpressError.js');
 
 module.exports.isLoggedin = (req, res, next) => {
     if (!req.isAuthenticated()) {
