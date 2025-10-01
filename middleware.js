@@ -1,5 +1,5 @@
-const Listing = require("../Wanderlust/modules/listing.js");
-const Review = require("../Wanderlust/modules/review.js"); // adjust the path as needed
+const Listing = require("./modules/listing.js");
+const Review = require("./modules/review.js"); // adjust the path as needed
 
 const { listingSchema, reviewSchema} = require('../Wanderlust/schema.js');
 const ExpressError = require('../Wanderlust/utils/ExpressError.js');
